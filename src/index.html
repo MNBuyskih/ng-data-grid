@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data grid example</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+</head>
+<body ng-app="Example" ng-controller="ExampleCtrl">
+<grid grid-options="gridOptions" grid-options-change="optionsChange" grid-columns="columns" grid-data="data"></grid>
+<h4>Grid Options</h4>
+<pre>{{gridOptions|json}}</pre>
+<h4>Columns settings</h4>
+<pre>{{columns|json}}</pre>
+<h4>Data</h4>
+<pre>{{data|json}}</pre>
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="example.js"></script>
+</body>
+</html>

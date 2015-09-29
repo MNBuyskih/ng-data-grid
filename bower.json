@@ -1,0 +1,25 @@
+{
+  "name": "data-grid",
+  "version": "0.0.0",
+  "authors": [
+    "MNBuyskih <buyskih@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.6",
+    "angular-bootstrap": "~0.13.4",
+    "font-awesome": "~4.4.0"
+  }
+}
